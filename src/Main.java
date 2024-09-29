@@ -10,6 +10,7 @@ public class Main {
         employeeBook.addEmployee(new Employee("Petrov", "Petr", "Petrovich"));
         employeeBook.addEmployee(new Employee("Mamaev", "Renat", "Maratovich"));
         employeeBook.addEmployee(new Employee("Simonova", "Olga", "Petrovna"));
+        employeeBook.addEmployee(new Employee("Lavsky", "Artyom", "Viktorovich"));
         System.out.println("-------------------------------------------------------------");
         System.out.println("-------------------------------------------------------------");
         System.out.println(employeeBook.findEmployee("Ivanov", "Ivan", "Ivanovich"));
